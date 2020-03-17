@@ -1,6 +1,6 @@
-package sample.UserProfiles;
+package TMGE.GUI;
 
-import javafx.geometry.HPos;
+import TMGE.UserProfiles.UserDatabase;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Parent;

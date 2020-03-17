@@ -1,4 +1,4 @@
-package sample;
+package TMGE;
 
 public class Controller {
 }

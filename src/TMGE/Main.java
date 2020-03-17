@@ -1,4 +1,4 @@
-package sample;
+package TMGE;
 
 import javafx.application.*;
 import javafx.geometry.Insets;
@@ -6,10 +6,8 @@ import javafx.stage.*;
 import javafx.scene.*;
 import javafx.scene.layout.*;
 import javafx.scene.control.*;
-import sample.UserProfiles.LoginGUI;
-import sample.UserProfiles.UserDatabase;
-
-import java.util.Stack;
+import TMGE.GUI.LoginGUI;
+import TMGE.UserProfiles.UserDatabase;
 
 public class Main extends Application {
 
