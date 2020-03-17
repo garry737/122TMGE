@@ -54,6 +54,10 @@ public class SignUpGUI {
         passwordTextField.setPromptText("password");
         grid.add(passwordTextField, 1, 2);
 
+        Button backbutton = new Button("< Back");
+//        GridPane.setHalignment(backbutton, HPos.RIGHT);
+        grid.add(backbutton, 0,3);
+
         Button creatAccButton = new Button("Create Account");
         grid.add(creatAccButton, 1,3);
 
@@ -120,6 +124,11 @@ public class SignUpGUI {
                 grid.add(usernameExist, 1, 2);
             }
 
+        });
+
+        backbutton.setOnAction(e-> {
+            LoginGUI loginGUI = new LoginGUI(this.userDatabase, this.primaryStage, this.mainMenuScene);
+            this.primaryStage.setScene(new Scene(loginGUI.createContent(),700,500));
         });
 
         return grid;
