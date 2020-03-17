@@ -6,6 +6,8 @@ import javafx.stage.*;
 import javafx.scene.*;
 import javafx.scene.layout.*;
 import javafx.scene.control.*;
+import sample.UserProfiles.LoginGUI;
+import sample.UserProfiles.UserDatabase;
 
 import java.util.Stack;
 
@@ -20,6 +22,11 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) {
+
+//        primaryStage.setScene(new Scene(loginGUI.createContent(),500,500));
+//        primaryStage.show();
+
+
         window = primaryStage;
         window.setTitle("Tile Matching Game Environment");
 
@@ -117,7 +124,11 @@ public class Main extends Application {
         tentenHowGrid.getChildren().addAll(tentenHowLabel, tentenInstructionsLabel, tentenHowBackButton);
 
 
-        window.setScene(mainMenuScene);
+//        window.setScene(mainMenuScene);
+//        window.show();
+        UserDatabase userDatabase = new UserDatabase("src/sample/UserProfiles/UserDataBaseFile.txt");
+        LoginGUI loginGUI = new LoginGUI(userDatabase, window, mainMenuScene);
+        window.setScene(new Scene(loginGUI.createContent(),700,500));
         window.show();
     }
 
