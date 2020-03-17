@@ -1,5 +1,9 @@
 package TMGE;
 
+import TMGE.GUI.BejeweledUI;
+import TMGE.GUI.TenTenGUI;
+import TMGE.Game.BejeweledGame;
+import TMGE.Game.TenTenGame;
 import javafx.application.*;
 import javafx.geometry.Insets;
 import javafx.stage.*;
@@ -74,6 +78,13 @@ public class Main extends Application {
         Label bejeweledTitleLabel = new Label("       Bejeweled");
         GridPane.setConstraints(bejeweledTitleLabel, 3,1);
         Button bejeweledStartButton = new Button("  Start Game  ");
+        bejeweledStartButton.setOnMouseClicked(mouseEvent -> {
+            BejeweledGame game = new BejeweledGame(8,8);
+            game.initValidBoard();
+            BejeweledUI ui = new BejeweledUI(game);
+            primaryStage.setScene(new Scene(ui.createContent()));
+            primaryStage.show();
+        });
         GridPane.setConstraints(bejeweledStartButton, 3,2);
         //bejeweledStartButton.setOnAction(e -> window.setScene(INSERT BEJEWELED SCENE HERE));
         Button bejeweledHowButton = new Button("  How to Play  ");
@@ -100,6 +111,12 @@ public class Main extends Application {
         GridPane.setConstraints(tentenTitleLabel, 3,1);
         Button tentenStartButton = new Button("  Start Game  ");
         GridPane.setConstraints(tentenStartButton, 3,2);
+        tentenStartButton.setOnMouseClicked(mouseEvent -> {
+            TenTenGame game = new TenTenGame(10,10);
+            TenTenGUI tentenGUI = new TenTenGUI(game);
+            primaryStage.setScene(new Scene(tentenGUI.layout, 1000, 1000));
+            primaryStage.show();
+        });
         //tentenStartButton.setOnAction(e -> window.setScene(INSERT 1010 SCENE HERE));
         Button tentenHowButton = new Button("  How to Play  ");
         GridPane.setConstraints(tentenHowButton, 3,3);

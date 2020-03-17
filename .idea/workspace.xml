@@ -2,24 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c604f9fa-5b37-4266-998d-7c616880cdd0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/122TMGE.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bejeweled/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bejeweled/bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bejeweled/bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bejeweled/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bejeweled/blue2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bejeweled/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bejeweled/green2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bejeweled/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bejeweled/orange2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bejeweled/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bejeweled/purple2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bejeweled/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bejeweled/red2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bejeweled/white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bejeweled/white2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bejeweled/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bejeweled/yellow2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TMGE/GUI/BejeweledUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TMGE/GUI/TenTenGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TMGE/Game/BejeweledGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TMGE/Game/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TMGE/Game/GamePieces/Gem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TMGE/Game/GamePieces/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TMGE/Game/TenTenGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TMGE/GridControl/Coordinates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TMGE/Networking/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TMGE/Networking/Multiplayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TMGE/Networking/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TMGE/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TMGE/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/UserProfiles/LoginGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TMGE/GUI/LoginGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/UserProfiles/SignUpGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TMGE/GUI/SignUpGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/UserProfiles/UserDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TMGE/UserProfiles/UserDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/UserProfiles/UserDatabaseFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TMGE/UserProfiles/UserDatabaseFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/TMGE/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/sample/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/sample/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/sample/UserProfiles/LoginGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/sample/UserProfiles/SignUpGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/sample/UserProfiles/UserDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TMGE/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TMGE/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +57,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/bejeweled" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/bejeweled" />
+      <recent name="$PROJECT_DIR$/src/TMGE/GUI" />
+      <recent name="$PROJECT_DIR$/src/TMGE/Networking" />
+      <recent name="$PROJECT_DIR$/src/TMGE/Game" />
+      <recent name="$PROJECT_DIR$/src/TMGE/GridControl" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
@@ -60,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584467786738</updated>
-      <workItem from="1584467788183" duration="488000" />
+      <workItem from="1584467788183" duration="3274000" />
     </task>
     <servers />
   </component>
@@ -80,37 +107,37 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="577" y="307" key="#com.intellij.ide.util.TreeClassChooserDialog/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584468023635" />
-    <state width="1638" height="267" key="GridCell.Tab.0.bottom" timestamp="1584468104099">
+    <state width="1638" height="329" key="GridCell.Tab.0.bottom" timestamp="1584471530167">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="267" key="GridCell.Tab.0.bottom/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584468104099" />
-    <state width="1638" height="267" key="GridCell.Tab.0.center" timestamp="1584468104097">
+    <state width="1638" height="329" key="GridCell.Tab.0.bottom/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584471530167" />
+    <state width="1638" height="329" key="GridCell.Tab.0.center" timestamp="1584471530166">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="267" key="GridCell.Tab.0.center/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584468104097" />
-    <state width="1638" height="267" key="GridCell.Tab.0.left" timestamp="1584468104096">
+    <state width="1638" height="329" key="GridCell.Tab.0.center/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584471530166" />
+    <state width="1638" height="329" key="GridCell.Tab.0.left" timestamp="1584471530166">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="267" key="GridCell.Tab.0.left/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584468104096" />
-    <state width="1638" height="267" key="GridCell.Tab.0.right" timestamp="1584468104098">
+    <state width="1638" height="329" key="GridCell.Tab.0.left/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584471530166" />
+    <state width="1638" height="329" key="GridCell.Tab.0.right" timestamp="1584471530167">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="267" key="GridCell.Tab.0.right/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584468104098" />
-    <state width="1638" height="329" key="GridCell.Tab.1.bottom" timestamp="1584468065129">
+    <state width="1638" height="329" key="GridCell.Tab.0.right/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584471530167" />
+    <state width="1638" height="329" key="GridCell.Tab.1.bottom" timestamp="1584471530169">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="329" key="GridCell.Tab.1.bottom/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584468065129" />
-    <state width="1638" height="329" key="GridCell.Tab.1.center" timestamp="1584468065128">
+    <state width="1638" height="329" key="GridCell.Tab.1.bottom/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584471530169" />
+    <state width="1638" height="329" key="GridCell.Tab.1.center" timestamp="1584471530168">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="329" key="GridCell.Tab.1.center/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584468065128" />
-    <state width="1638" height="329" key="GridCell.Tab.1.left" timestamp="1584468065128">
+    <state width="1638" height="329" key="GridCell.Tab.1.center/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584471530168" />
+    <state width="1638" height="329" key="GridCell.Tab.1.left" timestamp="1584471530168">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="329" key="GridCell.Tab.1.left/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584468065128" />
-    <state width="1638" height="329" key="GridCell.Tab.1.right" timestamp="1584468065128">
+    <state width="1638" height="329" key="GridCell.Tab.1.left/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584471530168" />
+    <state width="1638" height="329" key="GridCell.Tab.1.right" timestamp="1584471530168">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="329" key="GridCell.Tab.1.right/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584468065128" />
+    <state width="1638" height="329" key="GridCell.Tab.1.right/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584471530168" />
   </component>
 </project>
