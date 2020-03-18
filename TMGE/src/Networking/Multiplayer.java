@@ -1,6 +1,6 @@
 package Networking;
 
-import TMGE.GUI.BejeweledUI;
+import BejeweledGUI.BejeweledUI;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -18,7 +18,7 @@ public class Multiplayer {
     public boolean isReady = false;
     BejeweledUI.ScoreListener listener = null;
 
-    Multiplayer(boolean isServer){
+    public Multiplayer(boolean isServer){
         this.isServer = false;
     }
 
@@ -59,7 +59,7 @@ public class Multiplayer {
         }
     }
 
-    public void setListener(BejeweledUI.ScoreListener listener){
+    public void setListener(BejeweledGUI.BejeweledUI.MultiplayerButton listener){
         this.listener = listener;
     }
 

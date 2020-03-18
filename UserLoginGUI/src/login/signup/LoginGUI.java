@@ -1,6 +1,6 @@
 package login.signup;
 
-import TMGE.UserProfiles.UserDatabase;
+import UserProfiles.UserDatabase;
 import javafx.geometry.HPos;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;

@@ -1,7 +1,8 @@
 package Bejeweled.game;
 
-import TMGE.Game.GamePieces.Gem;
-import TMGE.GridControl.Coordinates;
+import Bejeweled.game.piece.Gem;
+import BaseGame.Game;
+import GridControl.Coordinates;
 
 import java.util.*;
 

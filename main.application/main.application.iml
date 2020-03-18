@@ -8,5 +8,12 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="module" module-name="BejeweledGUI1" />
+    <orderEntry type="module" module-name="TenTenGUI1" />
+    <orderEntry type="module" module-name="BejeweledLogic" />
+    <orderEntry type="module" module-name="TenTenLogic" />
+    <orderEntry type="module" module-name="UserLoginGUI1" />
+    <orderEntry type="module" module-name="TMGE" />
+    <orderEntry type="library" name="lib1" level="project" />
   </component>
 </module>

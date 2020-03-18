@@ -1,5 +1,6 @@
 package TenTen.game.piece;
 
+import GridControl.Coordinates;
 import javafx.scene.layout.Region;
 
 import TMGE.GridControl.Coordinates;

@@ -1,22 +1,22 @@
 package TenTenGUI;
 
-import TMGE.Game.GamePieces.Piece;
-import TMGE.Main;
-import javafx.scene.Parent;
-import javafx.scene.layout.*;
-import javafx.scene.text.Font;
-import javafx.scene.text.Text;
-import TMGE.Game.TenTenGame;
-import TMGE.GridControl.Coordinates;
-import javafx.scene.paint.Color;
-
+import GridControl.Coordinates;
+import ProfilePictures.ProfilePictureGUI;
+import TenTen.game.TenTenGame;
+import TenTen.game.piece.Piece;
+import javafx.event.EventHandler;
 import javafx.geometry.Insets;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.event.EventHandler;
-import javafx.scene.input.*;
-
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.*;
+import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
+import javafx.scene.text.Font;
+import javafx.scene.text.Text;
+import login.signup.LoginGUI;
+import main.Main;
 
 import java.util.ArrayList;
 import java.util.List;

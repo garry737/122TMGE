@@ -1,9 +1,9 @@
-package Game;
+package BaseGame;
 
-import TMGE.GridControl.Coordinates;
+import GridControl.Coordinates;
 
 
-abstract class Game{
+public abstract class Game{
     public int row;
     public int column;
     public Game(int row, int column){
@@ -12,7 +12,7 @@ abstract class Game{
     }
     public void initValidBoard(){ }
     public Boolean isMovePossible() { return true;}
-    boolean isInBound(Coordinates coords) {
+    public boolean isInBound(Coordinates coords) {
         if (coords == null)
             return false;
         if (coords.row < 0 || coords.column < 0)

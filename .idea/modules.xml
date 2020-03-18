@@ -3,12 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/122TMGE.iml" filepath="$PROJECT_DIR$/122TMGE.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BejeweledGUI/BejeweledGUI.iml" filepath="$PROJECT_DIR$/BejeweledGUI/BejeweledGUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BejeweledGUI/BejeweledGUI1.iml" filepath="$PROJECT_DIR$/BejeweledGUI/BejeweledGUI1.iml" />
       <module fileurl="file://$PROJECT_DIR$/BejeweledLogic/BejeweledLogic.iml" filepath="$PROJECT_DIR$/BejeweledLogic/BejeweledLogic.iml" />
       <module fileurl="file://$PROJECT_DIR$/TMGE/TMGE.iml" filepath="$PROJECT_DIR$/TMGE/TMGE.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TenTenGUI/TenTenGUI.iml" filepath="$PROJECT_DIR$/TenTenGUI/TenTenGUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TenTenGUI/TenTenGUI1.iml" filepath="$PROJECT_DIR$/TenTenGUI/TenTenGUI1.iml" />
       <module fileurl="file://$PROJECT_DIR$/TenTenLogic/TenTenLogic.iml" filepath="$PROJECT_DIR$/TenTenLogic/TenTenLogic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/UserLoginGUI/UserLoginGUI.iml" filepath="$PROJECT_DIR$/UserLoginGUI/UserLoginGUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserLoginGUI/UserLoginGUI1.iml" filepath="$PROJECT_DIR$/UserLoginGUI/UserLoginGUI1.iml" />
       <module fileurl="file://$PROJECT_DIR$/main.application/main.application.iml" filepath="$PROJECT_DIR$/main.application/main.application.iml" />
     </modules>
   </component>

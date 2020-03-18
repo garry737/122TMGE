@@ -1,5 +1,5 @@
 # 122TMGE
-## Tile Matching Game.Game Environment for IN4MATX 122 
+## Tile Matching BaseGame.Game Environment for IN4MATX 122 
 
 ### Members:
 Hannah Fragante

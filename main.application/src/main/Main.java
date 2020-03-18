@@ -1,17 +1,17 @@
 package main;
 
-import TMGE.GUI.BejeweledUI;
-import TMGE.GUI.TenTenGUI;
-import TMGE.Game.BejeweledGame;
-import TMGE.Game.TenTenGame;
+import BejeweledGUI.BejeweledUI;
+import TenTenGUI.TenTenGUI;
+import Bejeweled.game.BejeweledGame;
+import TenTen.game.TenTenGame;
 import javafx.application.*;
 import javafx.geometry.Insets;
 import javafx.stage.*;
 import javafx.scene.*;
 import javafx.scene.layout.*;
 import javafx.scene.control.*;
-import TMGE.GUI.LoginGUI;
-import TMGE.UserProfiles.UserDatabase;
+import login.signup.LoginGUI;
+import UserProfiles.UserDatabase;
 
 public class Main extends Application {
 
@@ -31,7 +31,6 @@ public class Main extends Application {
 
 //        primaryStage.setScene(new Scene(loginGUI.createContent(),500,500));
 //        primaryStage.show();
-
 
         window = primaryStage;
         window.setTitle("Tile Matching Game Environment");

@@ -7,16 +7,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c604f9fa-5b37-4266-998d-7c616880cdd0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BejeweledGUI/BejeweledGUI1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TMGE/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TenTenGUI/TenTenGUI1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TenTenGUI/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TenTenLogic/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserLoginGUI/UserLoginGUI1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserLoginGUI/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.application/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/122TMGE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/122TMGE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BejeweledGUI/BejeweledGUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BejeweledGUI/BejeweledGUI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BejeweledGUI/src/BejeweledGUI/BejeweledUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/BejeweledGUI/src/BejeweledGUI/BejeweledUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BejeweledGUI/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/BejeweledGUI/src/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.application/UserLoginGUI/UserLoginGUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UserLoginGUI/UserLoginGUI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.application/UserLoginGUI/src/ProfilePictures/ProfilePictureGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserLoginGUI/src/ProfilePictures/ProfilePictureGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.application/UserLoginGUI/src/login/signup/LoginGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserLoginGUI/src/login/signup/LoginGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.application/UserLoginGUI/src/login/signup/SignUpGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserLoginGUI/src/login/signup/SignUpGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BejeweledLogic/BejeweledLogic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BejeweledLogic/BejeweledLogic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BejeweledLogic/src/Bejeweled/game/BejeweledGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/BejeweledLogic/src/Bejeweled/game/BejeweledGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BejeweledLogic/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/BejeweledLogic/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TMGE/TMGE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TMGE/TMGE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TMGE/src/Game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/TMGE/src/BaseGame/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TMGE/src/Networking/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/TMGE/src/Networking/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TMGE/src/Networking/Multiplayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/TMGE/src/Networking/Multiplayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TenTenGUI/src/TenTenGUI/TenTenGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/TenTenGUI/src/TenTenGUI/TenTenGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TenTenLogic/TenTenLogic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TenTenLogic/TenTenLogic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TenTenLogic/src/TenTen/game/TenTenGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/TenTenLogic/src/TenTen/game/TenTenGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TenTenLogic/src/TenTen/game/piece/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/TenTenLogic/src/TenTen/game/piece/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserLoginGUI/src/login/signup/LoginGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserLoginGUI/src/login/signup/LoginGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserLoginGUI/src/login/signup/SignUpGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserLoginGUI/src/login/signup/SignUpGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.application/main.application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/main.application/main.application.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.application/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/main.application/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMGE/sample/UserProfiles/UserDatabaseFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMGE/sample/sample.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,18 +72,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/bejeweled" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/main.application" />
-      <recent name="$PROJECT_DIR$/TenTen" />
-      <recent name="$PROJECT_DIR$/Bejeweled" />
-      <recent name="$PROJECT_DIR$/TMGE/src/UserProfiles" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="TenTen.game" />
     </key>
@@ -62,6 +87,16 @@
       <recent name="$PROJECT_DIR$/src/TMGE/Networking" />
       <recent name="$PROJECT_DIR$/src/TMGE/Game" />
       <recent name="$PROJECT_DIR$/src/TMGE/GridControl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="BejeweledUI" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/main.application" />
+      <recent name="$PROJECT_DIR$/TenTen" />
+      <recent name="$PROJECT_DIR$/Bejeweled" />
+      <recent name="$PROJECT_DIR$/TMGE/src/UserProfiles" />
     </key>
   </component>
   <component name="RunManager">
@@ -163,17 +198,17 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="329" key="GridCell.Tab.1.right/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584471530168" />
-    <state x="474" y="377" width="793" height="598" key="NewModule_or_Project.wizard" timestamp="1584503133010">
+    <state x="474" y="377" width="793" height="598" key="NewModule_or_Project.wizard" timestamp="1584535804716">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="474" y="377" width="793" height="598" key="NewModule_or_Project.wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1584503133010" />
-    <state x="450" y="178" key="SettingsEditor" timestamp="1584533415571">
+    <state x="474" y="377" width="793" height="598" key="NewModule_or_Project.wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1584535804716" />
+    <state x="331" y="106" key="SettingsEditor" timestamp="1584537836813">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="450" y="178" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1584533415571" />
-    <state x="217" y="159" key="new project wizard" timestamp="1584531242549">
+    <state x="331" y="106" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1584537836813" />
+    <state x="217" y="159" key="new project wizard" timestamp="1584535114387">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="217" y="159" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1584531242549" />
+    <state x="217" y="159" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1584535114387" />
   </component>
 </project>

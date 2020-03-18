@@ -1,12 +1,14 @@
 package TenTen.game;
 
+import BaseGame.Game;
+import GridControl.Coordinates;
 import TenTen.game.piece.Piece;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
-import TMGE.GridControl.Coordinates;
-import TMGE.Game.GamePieces.Piece;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 
 public class TenTenGame extends Game {
     enum BoardState{
@@ -54,8 +56,8 @@ public class TenTenGame extends Game {
     public Boolean isMovePossible(){
         var emptyCoordinates = findCoordinatesFor(BoardState.EMPTY);
         for (var piece:piecesQueue.values()){
-            for (var coordinates:emptyCoordinates){
-                var coordsList = piece.getCoordinates(coordinates);
+            for (Coordinates coordinates:emptyCoordinates){
+                ArrayList<Coordinates> coordsList = piece.getCoordinates(coordinates);
                 if (verifyEmptySpaces(coordsList))
                     return true;
             }

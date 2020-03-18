@@ -1,6 +1,8 @@
 package BejeweledGUI;
 
-import TMGE.Main;
+import ProfilePictures.ProfilePictureGUI;
+import login.signup.LoginGUI;
+import main.Main;
 import javafx.application.Platform;
 import javafx.beans.property.*;
 import javafx.geometry.Insets;
@@ -14,12 +16,12 @@ import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
-import TMGE.Game.BejeweledGame;
-import TMGE.Game.GamePieces.Gem;
-import TMGE.GridControl.Coordinates;
-import TMGE.Networking.Client;
-import TMGE.Networking.Multiplayer;
-import TMGE.Networking.Server;
+import Bejeweled.game.BejeweledGame;
+import Bejeweled.game.piece.Gem;
+import GridControl.Coordinates;
+import Networking.Client;
+import Networking.Multiplayer;
+import Networking.Server;
 
 import java.io.IOException;
 import java.sql.Timestamp;
@@ -28,6 +30,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 public class BejeweledUI {
+
 
     private class TimerThread extends Thread{
         long time;
@@ -422,7 +425,7 @@ public class BejeweledUI {
         void opponentDone();
     }
 
-    private class MultiplayerButton extends Parent implements ScoreListener{
+    public class MultiplayerButton extends Parent implements ScoreListener{
         Button button = new Button("Multiplayer");
         Button serverBtn = new Button("Create Room");
         Button clientBtn = new Button("Join Room");

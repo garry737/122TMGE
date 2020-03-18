@@ -7,8 +7,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="lib" level="project" />
     <orderEntry type="library" name="lib1" level="project" />
+    <orderEntry type="module" module-name="TenTenLogic" />
+    <orderEntry type="module" module-name="main.application" />
     <orderEntry type="module" module-name="TMGE" />
+    <orderEntry type="module" module-name="UserLoginGUI1" />
   </component>
 </module>
