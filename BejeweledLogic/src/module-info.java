@@ -1,0 +1,3 @@
+module BejeweledLogic {
+    requires TMGE;
+}
