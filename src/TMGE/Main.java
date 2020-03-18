@@ -141,7 +141,7 @@ public class Main extends Application {
 
 //        window.setScene(mainMenuScene);
 //        window.show();
-        UserDatabase userDatabase = new UserDatabase("src/sample/UserProfiles/UserDataBaseFile.txt");
+        UserDatabase userDatabase = new UserDatabase("src/TMGE/UserProfiles/UserDataBaseFile.txt");
         LoginGUI loginGUI = new LoginGUI(userDatabase, window, mainMenuScene);
         window.setScene(new Scene(loginGUI.createContent(),700,500));
         window.show();

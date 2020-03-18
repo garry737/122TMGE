@@ -181,26 +181,30 @@ public class BejeweledUI {
 
         root.getChildren().addAll(jewels.values());
 
+        Parent profile = ProfilePictureGUI.createProfileView();
+        profile.setTranslateX((row * SIZE));
+        profile.setTranslateY((0));
+
         Text textScore = new Text();
         textScore.setTranslateX((row * SIZE));
-        textScore.setTranslateY((100));
+        textScore.setTranslateY((200));
         textScore.setFont(Font.font((68)));
         textScore.textProperty().bind(score.asString("Score: [%d]"));
 
 
         Text timerInfo = new Text();
         timerInfo.setTranslateX((row * SIZE));
-        timerInfo.setTranslateY((200));
+        timerInfo.setTranslateY((300));
         timerInfo.setFont(Font.font((68)));
         timerInfo.textProperty().bind(countdown);
         Timestamp timestamp = new Timestamp(TIMER_COUNT);
         LocalDateTime ld = timestamp.toLocalDateTime();
         countdown.setValue(String.format("Time: %s", ld.format(formatter)));
-        startButton = new StartButton((row + 1)* SIZE, 300);
+        startButton = new StartButton((row + 1)* SIZE, 350);
         MultiplayerButton multiplayerBtn = new MultiplayerButton((row) * SIZE, 550);
 
 
-
+        root.getChildren().add(profile);
         root.getChildren().add(textScore);
         root.getChildren().add(timerInfo);
         root.getChildren().add(startButton);

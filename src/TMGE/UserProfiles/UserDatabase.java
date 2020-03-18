@@ -8,16 +8,17 @@ import java.util.Scanner;
 public class UserDatabase {
 
     public static String CURRENT_USER = "";
+    public static String CURRENT_USER_PROFILE_PICTURE = "";
     private ArrayList<String> usernames;
     private HashMap<String, String> passwords;
-//    private HashMap<String, String> profilePictures;
+    private HashMap<String, String> profilePictures;
     private String filePath;
 
     public UserDatabase(String filePath){
         this.filePath = filePath;
         this.usernames = new ArrayList<>();
         this.passwords = new HashMap<>();
-//        this.profilePictures = new HashMap<>();
+        this.profilePictures = new HashMap<>();
 
         try {
             File myObj = new File(this.filePath);
@@ -26,11 +27,11 @@ public class UserDatabase {
                 String data = myReader.nextLine();
                 String[] userData = data.split(" ");
 
-                if (userData.length == 2){
+                if (userData.length == 3){
                     String uname = userData[0].toLowerCase();
                     this.usernames.add(uname);
                     this.passwords.put(uname, userData[1]);
-//                    this.profilePictures.put(uname,userData[2]);
+                    this.profilePictures.put(uname,userData[2]);
                 }
             }
             myReader.close();
@@ -41,7 +42,7 @@ public class UserDatabase {
 
     }
 
-    public boolean addUser(String username, String password){
+    public boolean addUser(String username, String password, String profilePicture){
         try {
 
             // Open given file in append mode.
@@ -52,11 +53,11 @@ public class UserDatabase {
             BufferedWriter out = new BufferedWriter(
                     new FileWriter(this.filePath, true));
             String uname = username.toLowerCase();
-            out.write(uname + " " + password + "\n");
+            out.write(uname + " " + password + " " + profilePicture + "\n");
 
             this.usernames.add(uname);
             this.passwords.put(uname, password);
-//            this.profilePictures.put(uname,profilePicture);
+            this.profilePictures.put(uname,profilePicture);
             out.close();
         }
         catch (IOException e) {
@@ -108,11 +109,11 @@ public class UserDatabase {
         this.passwords = passwords;
     }
 
-//    public HashMap<String, String> getProfilePictures() {
-//        return profilePictures;
-//    }
-//
-//    public void setProfilePictures(HashMap<String, String> profilePictures) {
-//        this.profilePictures = profilePictures;
-//    }
+    public HashMap<String, String> getProfilePictures() {
+        return profilePictures;
+    }
+
+    public void setProfilePictures(HashMap<String, String> profilePictures) {
+        this.profilePictures = profilePictures;
+    }
 }

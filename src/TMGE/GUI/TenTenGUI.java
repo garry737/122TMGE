@@ -2,6 +2,7 @@ package TMGE.GUI;
 
 import TMGE.Game.GamePieces.Piece;
 import javafx.geometry.Pos;
+import javafx.scene.Parent;
 import javafx.scene.layout.*;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
@@ -37,6 +38,10 @@ public class TenTenGUI
         game.initValidBoard();
         PQG = new PieceQueueGUI(3, game);
         TM = new TileManager(10, 10, PQG, game);
+
+        Parent profile = ProfilePictureGUI.createProfileView();
+
+
         Text scoreText = new Text();
         scoreText.setTranslateX((7.5 * 50));
         scoreText.setTranslateY((75));
@@ -52,6 +57,7 @@ public class TenTenGUI
         layout.getChildren().add(TM.gp);
         layout.getChildren().add(PQG.itemQueue);
         layout.getChildren().add(scoreText);
+        layout.getChildren().add(profile);
 
         Button button = new Button("Play");
         button.setMaxWidth(200);

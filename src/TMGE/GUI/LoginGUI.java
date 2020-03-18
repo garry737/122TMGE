@@ -37,6 +37,7 @@ public class LoginGUI {
         Text welcomeText = new Text("Welcome! Please Login!");
         welcomeText.setFont(Font.font(25));
         grid.add(welcomeText, 0, 0);
+        GridPane.setColumnSpan(welcomeText, 2);
 
         Label usernameLabel = new Label("Username:   ");
 //        GridPane.setHalignment(usernameLabel, HPos.RIGHT);
@@ -89,6 +90,11 @@ public class LoginGUI {
             else if(userDatabase.login(usernameTextField.getText())){
                 if(this.userDatabase.checkPassword(usernameTextField.getText().toLowerCase(), passwordTextField.getText())){
                     UserDatabase.CURRENT_USER = usernameTextField.getText().toLowerCase();
+                    UserDatabase.CURRENT_USER_PROFILE_PICTURE = this.userDatabase.getProfilePictures().get(UserDatabase.CURRENT_USER);
+                    System.out.println("USER RETRIEVED");
+                    System.out.println("Username: " + UserDatabase.CURRENT_USER);
+                    System.out.println("Password: " + passwordTextField.getText());
+                    System.out.println("Username: " + UserDatabase.CURRENT_USER_PROFILE_PICTURE);
                     this.primaryStage.setScene(this.mainMenuScene);
                 }
 

@@ -37,6 +37,7 @@ public class SignUpGUI {
         Text welcomeText = new Text("Create a New Account!");
         welcomeText.setFont(Font.font(25));
         grid.add(welcomeText, 0, 0);
+        GridPane.setColumnSpan(welcomeText, 2);
 
         Label usernameLabel = new Label("Username:   ");
 //        GridPane.setHalignment(usernameLabel, HPos.RIGHT);
@@ -54,12 +55,22 @@ public class SignUpGUI {
         passwordTextField.setPromptText("password");
         grid.add(passwordTextField, 1, 2);
 
+        Label chooseIconLabel = new Label("Choose Icon:   ");
+//        GridPane.setHalignment(passwordLabel, HPos.RIGHT);
+        grid.add(chooseIconLabel, 0, 3);
+
+        ProfilePictureGUI profilePictureGUI = new ProfilePictureGUI();
+        Parent profilePictureGUIParent =profilePictureGUI.createChooseProfilePicture();
+        grid.add(profilePictureGUIParent, 1,3);
+
         Button backbutton = new Button("< Back");
 //        GridPane.setHalignment(backbutton, HPos.RIGHT);
-        grid.add(backbutton, 0,3);
+        grid.add(backbutton, 0,4);
 
         Button creatAccButton = new Button("Create Account");
-        grid.add(creatAccButton, 1,3);
+        grid.add(creatAccButton, 1,4);
+
+
 
         Label fillOutLabel = new Label("*Please fill out ALL text fields!");
         fillOutLabel.setTextFill(Color.RED);
@@ -69,6 +80,8 @@ public class SignUpGUI {
 
         Label invalidInput = new Label("*Please dont put spaces in your Username or Password!");
         invalidInput.setTextFill(Color.RED);
+
+
 
         creatAccButton.setOnAction(e->{
             if (usernameTextField.getText().equals("") || passwordTextField.getText().equals("")){
@@ -85,6 +98,8 @@ public class SignUpGUI {
                 }
 
                 grid.add(fillOutLabel, 1, 4);
+                GridPane.setConstraints(backbutton, 0,5);
+                GridPane.setConstraints(creatAccButton, 1,5);
             }
             else if (!this.userDatabase.checkValidUsernamePassword(usernameTextField.getText(), passwordTextField.getText())){
 
@@ -99,11 +114,18 @@ public class SignUpGUI {
                 }
 
                 grid.add(invalidInput, 1, 4);
+                GridPane.setConstraints(backbutton, 0,5);
+                GridPane.setConstraints(creatAccButton, 1,5);
 
             }
 
-            else if(this.userDatabase.addUser(usernameTextField.getText(), passwordTextField.getText())){
+            else if(this.userDatabase.addUser(usernameTextField.getText(), passwordTextField.getText(), ProfilePictureGUI.ICON)){
                 UserDatabase.CURRENT_USER = usernameTextField.getText().toLowerCase();
+                UserDatabase.CURRENT_USER_PROFILE_PICTURE = ProfilePictureGUI.ICON;
+                System.out.println("NEW USER CREATED");
+                System.out.println("Username: " + UserDatabase.CURRENT_USER);
+                System.out.println("Password: " + passwordTextField.getText());
+                System.out.println("Username: " + UserDatabase.CURRENT_USER_PROFILE_PICTURE);
                 this.primaryStage.setScene(this.mainMenuScene);
             }
 
@@ -119,7 +141,12 @@ public class SignUpGUI {
                 }
                 GridPane.setRowIndex(passwordLabel, 3);
                 GridPane.setRowIndex(passwordTextField, 3);
-                GridPane.setRowIndex(creatAccButton, 4);
+
+                GridPane.setRowIndex(chooseIconLabel, 4);
+                GridPane.setRowIndex(profilePictureGUIParent, 4);
+
+                GridPane.setConstraints(backbutton, 0,5);
+                GridPane.setConstraints(creatAccButton, 1,5);
 
                 grid.add(usernameExist, 1, 2);
             }
