@@ -7,113 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c604f9fa-5b37-4266-998d-7c616880cdd0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/src.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bejeweled/Bejeweled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bejeweled/BejeweledGUI/BejeweledGUI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bejeweled/BejeweledGUI/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bejeweled/BejeweledLogic/BejeweledLogic.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bejeweled/BejeweledLogic/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bejeweled/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TMGE/TMGE.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TenTen/TenTen.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TenTen/TenTenGUI/TenTenGUI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TenTen/TenTenLogic/TenTenLogic.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.application/UserLoginGUI/UserLoginGUI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.application/main.application.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/META-INF/122TMGE.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$HandleSwapThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$Jewel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$LogoutButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$MainMenuButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$MultiplayerButton$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$MultiplayerButton$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$MultiplayerButton$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$MultiplayerButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$ScoreListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$StartButton$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$StartButton$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$StartButton$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$StartButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$TimerThread$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$TimerThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$UISTATE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/LoginGUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/PieceQueueGUI$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/PieceQueueGUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/ProfilePictureGUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/SignUpGUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/TenTenGUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/Tile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/TileManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/BejeweledGame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/BejeweledGame$SwapDirection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/BejeweledGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Gem$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Gem$GemType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Gem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Piece.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Piece1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Piece10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Piece11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Piece12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Piece13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Piece14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Piece15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Piece16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Piece17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Piece18.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Piece19.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Piece2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Piece3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Piece4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Piece5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Piece6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Piece7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Piece8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/GamePieces/Piece9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/SortByColumn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/SortByRow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/TenTenGame$BoardState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Game/TenTenGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GridControl/Coordinates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Networking/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Networking/Multiplayer$InputThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Networking/Multiplayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Networking/Server$ServerThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Networking/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/UserProfiles/UserDatabase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/UserProfiles/UserDatabaseFile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMGE/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/main.application/src/main/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMGE/GUI/BejeweledUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bejeweled/BejeweledGUI/src/BejeweledGUI/BejeweledUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMGE/GUI/LoginGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/main.application/UserLoginGUI/src/login/signup/LoginGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMGE/GUI/ProfilePictureGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/main.application/UserLoginGUI/src/ProfilePictures/ProfilePictureGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMGE/GUI/SignUpGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/main.application/UserLoginGUI/src/login/signup/SignUpGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMGE/GUI/TenTenGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/TenTen/TenTenGUI/src/TenTenGUI/TenTenGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMGE/Game/BejeweledGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bejeweled/BejeweledLogic/src/Bejeweled/game/BejeweledGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMGE/Game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/TMGE/src/Game/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMGE/Game/GamePieces/Gem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bejeweled/BejeweledLogic/src/Bejeweled/game/piece/Gem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMGE/Game/GamePieces/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/TenTen/TenTenLogic/src/TenTen/game/piece/Piece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMGE/Game/TenTenGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/TenTen/TenTenLogic/src/TenTen/game/TenTenGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMGE/GridControl/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/TMGE/src/GridControl/Coordinates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMGE/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/main.application/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMGE/Networking/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/TMGE/src/Networking/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMGE/Networking/Multiplayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/TMGE/src/Networking/Multiplayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMGE/Networking/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/TMGE/src/Networking/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMGE/UserProfiles/UserDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/TMGE/src/UserProfiles/UserDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMGE/UserProfiles/UserDatabaseFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TMGE/src/UserProfiles/UserDatabaseFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TMGE/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/TMGE/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BejeweledGUI/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/BejeweledGUI/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.application/UserLoginGUI/UserLoginGUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UserLoginGUI/UserLoginGUI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.application/UserLoginGUI/src/ProfilePictures/ProfilePictureGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserLoginGUI/src/ProfilePictures/ProfilePictureGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.application/UserLoginGUI/src/login/signup/LoginGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserLoginGUI/src/login/signup/LoginGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.application/UserLoginGUI/src/login/signup/SignUpGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserLoginGUI/src/login/signup/SignUpGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +47,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/main.application" />
       <recent name="$PROJECT_DIR$/TenTen" />
       <recent name="$PROJECT_DIR$/Bejeweled" />
@@ -268,10 +167,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="474" y="377" width="793" height="598" key="NewModule_or_Project.wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1584503133010" />
-    <state x="450" y="178" key="SettingsEditor" timestamp="1584533147828">
+    <state x="450" y="178" key="SettingsEditor" timestamp="1584533415571">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="450" y="178" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1584533147828" />
+    <state x="450" y="178" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1584533415571" />
     <state x="217" y="159" key="new project wizard" timestamp="1584531242549">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
