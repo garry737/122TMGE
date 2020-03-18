@@ -1,10 +1,12 @@
 package TMGE.GUI;
 
+import TMGE.Main;
 import javafx.application.Platform;
 import javafx.beans.property.*;
 import javafx.geometry.Insets;
 import javafx.geometry.Point2D;
 import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -202,6 +204,8 @@ public class BejeweledUI {
         countdown.setValue(String.format("Time: %s", ld.format(formatter)));
         startButton = new StartButton((row + 1)* SIZE, 350);
         MultiplayerButton multiplayerBtn = new MultiplayerButton((row) * SIZE, 550);
+        LogoutButton logoutButton = new LogoutButton((row) * SIZE, 700);
+        MainMenuButton mainMenuButton = new MainMenuButton((row+2) * SIZE, 700);
 
 
         root.getChildren().add(profile);
@@ -209,6 +213,8 @@ public class BejeweledUI {
         root.getChildren().add(timerInfo);
         root.getChildren().add(startButton);
         root.getChildren().add(multiplayerBtn);
+        root.getChildren().add(logoutButton);
+        root.getChildren().add(mainMenuButton);
         return root;
     }
 
@@ -289,6 +295,47 @@ public class BejeweledUI {
         t.setDaemon(true);
         t.start();
     }
+
+    private class LogoutButton extends Parent {
+        Button button = new Button("Logout");
+        public LogoutButton(int x, int y){
+            button.setMaxWidth(150);
+            button.setMaxHeight(50);
+            button.setPrefHeight(50);
+            button.setPrefWidth(150);
+            BorderPane borderPane = new BorderPane();
+            borderPane.setCenter(button);
+            setTranslateX(x);
+            setTranslateY(y);
+            getChildren().add(borderPane);
+
+            button.setOnMouseClicked(mouseEvent -> {
+
+                LoginGUI loginGUI = new LoginGUI(Main.GLOBAL_USER_DATABASE, Main.PRIMARY_STAGE, Main.MAIN_MENU_SCENE);
+                Main.PRIMARY_STAGE.setScene(new Scene(loginGUI.createContent(),700,500));
+            });
+        }
+    }
+
+    private class MainMenuButton extends Parent {
+        Button button = new Button("Main Menu");
+        public MainMenuButton(int x, int y){
+            button.setMaxWidth(150);
+            button.setMaxHeight(50);
+            button.setPrefHeight(50);
+            button.setPrefWidth(150);
+            BorderPane borderPane = new BorderPane();
+            borderPane.setCenter(button);
+            setTranslateX(x);
+            setTranslateY(y);
+            getChildren().add(borderPane);
+
+            button.setOnMouseClicked(mouseEvent -> {
+                Main.PRIMARY_STAGE.setScene(Main.MAIN_MENU_SCENE);
+            });
+        }
+    }
+
 
     private class StartButton extends Parent {
         Button button = new Button("Start");

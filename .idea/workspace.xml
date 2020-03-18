@@ -7,9 +7,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c604f9fa-5b37-4266-998d-7c616880cdd0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/122TMGE_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$HandleSwapThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$HandleSwapThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$Jewel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$Jewel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$MultiplayerButton$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$MultiplayerButton$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$MultiplayerButton$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$MultiplayerButton$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$MultiplayerButton$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$MultiplayerButton$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$MultiplayerButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$MultiplayerButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$StartButton$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$StartButton$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$StartButton$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$StartButton$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$StartButton$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$StartButton$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$StartButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$StartButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$TimerThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$TimerThread$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$TimerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$TimerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$UISTATE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI$UISTATE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/BejeweledUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/PieceQueueGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/PieceQueueGUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/PieceQueueGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/PieceQueueGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/TenTenGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/TenTenGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/Tile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/Tile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/TileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/GUI/TileManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/UserProfiles/UserDatabaseFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/UserProfiles/UserDatabaseFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TMGE/GUI/BejeweledUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TMGE/GUI/BejeweledUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TMGE/GUI/TenTenGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TMGE/GUI/TenTenGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TMGE/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TMGE/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TMGE/UserProfiles/UserDatabaseFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TMGE/UserProfiles/UserDatabaseFile.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,29 +119,29 @@
     </state>
     <state x="577" y="307" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1584502783233" />
     <state x="577" y="307" key="#com.intellij.ide.util.TreeClassChooserDialog/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584468023635" />
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1584504721195">
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1584525217190">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027/-1920.23.1920.1057@0.23.1680.1027" timestamp="1584491823901" />
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1584504721195" />
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1584525217190" />
     <state width="1638" height="329" key="GridCell.Tab.0.bottom/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584471530167" />
-    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1584504721194">
+    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1584525217189">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027/-1920.23.1920.1057@0.23.1680.1027" timestamp="1584491823899" />
-    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1584504721194" />
+    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1584525217189" />
     <state width="1638" height="329" key="GridCell.Tab.0.center/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584471530166" />
-    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1584504721193">
+    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1584525217189">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027/-1920.23.1920.1057@0.23.1680.1027" timestamp="1584491823899" />
-    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1584504721193" />
+    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1584525217189" />
     <state width="1638" height="329" key="GridCell.Tab.0.left/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584471530166" />
-    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1584504721194">
+    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1584525217190">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027/-1920.23.1920.1057@0.23.1680.1027" timestamp="1584491823900" />
-    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1584504721194" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1584525217190" />
     <state width="1638" height="329" key="GridCell.Tab.0.right/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584471530167" />
     <state width="1638" height="329" key="GridCell.Tab.1.bottom" timestamp="1584471530169">
       <screen x="0" y="23" width="1680" height="1027" />

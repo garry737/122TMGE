@@ -17,6 +17,10 @@ public class Main extends Application {
 
     Stage window;
     Scene scene1, scene2;
+    public static Scene MAIN_MENU_SCENE= null;
+    public static Stage PRIMARY_STAGE = null;
+    public static UserDatabase GLOBAL_USER_DATABASE = null;
+
 
     public static void main(String[] args) {
         launch(args);
@@ -141,7 +145,10 @@ public class Main extends Application {
 
 //        window.setScene(mainMenuScene);
 //        window.show();
+        MAIN_MENU_SCENE = mainMenuScene;
+        PRIMARY_STAGE = window;
         UserDatabase userDatabase = new UserDatabase("src/TMGE/UserProfiles/UserDataBaseFile.txt");
+        GLOBAL_USER_DATABASE = userDatabase;
         LoginGUI loginGUI = new LoginGUI(userDatabase, window, mainMenuScene);
         window.setScene(new Scene(loginGUI.createContent(),700,500));
         window.show();

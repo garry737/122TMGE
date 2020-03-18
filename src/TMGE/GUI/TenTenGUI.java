@@ -1,6 +1,7 @@
 package TMGE.GUI;
 
 import TMGE.Game.GamePieces.Piece;
+import TMGE.Main;
 import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.layout.*;
@@ -85,6 +86,37 @@ public class TenTenGUI
         borderPane.setTranslateX(25);
         borderPane.setTranslateY((200));
         layout.getChildren().add(borderPane);
+
+        Button mainMenuButton = new Button("Main Menu");
+        mainMenuButton.setMaxWidth(150);
+        mainMenuButton.setMaxHeight(50);
+        mainMenuButton.setPrefHeight(50);
+        mainMenuButton.setPrefWidth(150);
+        mainMenuButton.setFont(Font.font(15));
+        mainMenuButton.setOnMouseClicked(mouseEvent -> {
+            Main.PRIMARY_STAGE.setScene(Main.MAIN_MENU_SCENE);
+        });
+        BorderPane borderPane1 = new BorderPane();
+        borderPane1.setCenter(mainMenuButton);
+        borderPane1.setTranslateX(25);
+        borderPane1.setTranslateY((400));
+        layout.getChildren().add(borderPane1);
+
+        Button logoutButton = new Button("Logout");
+        logoutButton.setMaxWidth(150);
+        logoutButton.setMaxHeight(50);
+        logoutButton.setPrefHeight(50);
+        logoutButton.setPrefWidth(150);
+        logoutButton.setFont(Font.font(15));
+        logoutButton.setOnMouseClicked(mouseEvent -> {
+            LoginGUI loginGUI = new LoginGUI(Main.GLOBAL_USER_DATABASE, Main.PRIMARY_STAGE, Main.MAIN_MENU_SCENE);
+            Main.PRIMARY_STAGE.setScene(new Scene(loginGUI.createContent(),700,500));
+        });
+        BorderPane borderPane2 = new BorderPane();
+        borderPane2.setCenter(logoutButton);
+        borderPane2.setTranslateX(25);
+        borderPane2.setTranslateY((500));
+        layout.getChildren().add(borderPane2);
 
     }
 }
