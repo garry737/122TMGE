@@ -203,9 +203,9 @@ public class BejeweledUI {
         LocalDateTime ld = timestamp.toLocalDateTime();
         countdown.setValue(String.format("Time: %s", ld.format(formatter)));
         startButton = new StartButton((row + 1)* SIZE, 350);
-        MultiplayerButton multiplayerBtn = new MultiplayerButton((row) * SIZE, 550);
-        LogoutButton logoutButton = new LogoutButton((row) * SIZE, 700);
-        MainMenuButton mainMenuButton = new MainMenuButton((row+2) * SIZE, 700);
+        MultiplayerButton multiplayerBtn = new MultiplayerButton((row) * SIZE + 10, 550);
+        LogoutButton logoutButton = new LogoutButton((row + 3) * SIZE + 25, 20);
+        MainMenuButton mainMenuButton = new MainMenuButton((row+3) * SIZE + 25, 80);
 
 
         root.getChildren().add(profile);
