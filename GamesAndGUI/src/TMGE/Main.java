@@ -11,7 +11,7 @@ import javafx.scene.*;
 import javafx.scene.layout.*;
 import javafx.scene.control.*;
 import TMGE.GUI.LoginGUI;
-import TMGE.UserProfiles.UserDatabase;
+import UserProfiles.UserDatabase;
 
 public class Main extends Application {
 
@@ -23,7 +23,7 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
-        launch(args);
+        Application.launch(args);
     }
 
     @Override

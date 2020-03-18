@@ -1,18 +1,8 @@
 package TMGE.Game.GamePieces;
 
-import javafx.geometry.Insets;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-import java.io.FileInputStream;
-
-import javafx.scene.layout.HBox;
 import javafx.scene.layout.Region;
-import javafx.scene.input.*;
-import javafx.event.EventHandler;
-import javafx.scene.control.Button;
 
-import javafx.scene.layout.VBox;
-import TMGE.GridControl.Coordinates;
+import GridControl.Coordinates;
 
 import java.util.ArrayList;
 import java.util.Random;

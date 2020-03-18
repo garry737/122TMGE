@@ -1,8 +1,7 @@
-package TMGE.Networking;
+package Networking;
 
 import java.net.*;
 import java.io.*;
-import java.util.Scanner;
 
 public class Server extends Multiplayer{
     private ServerSocket    server   = null;

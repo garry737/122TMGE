@@ -1,7 +1,8 @@
 package TMGE.Game;
 
+import Game.Game;
 import TMGE.Game.GamePieces.Gem;
-import TMGE.GridControl.Coordinates;
+import GridControl.Coordinates;
 
 import java.util.*;
 

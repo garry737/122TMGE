@@ -1,4 +1,4 @@
-package TMGE.UserProfiles;
+package UserProfiles;
 
 import java.io.*;
 import java.util.ArrayList;

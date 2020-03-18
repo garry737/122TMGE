@@ -2,8 +2,9 @@ package TMGE.Game;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
-import TMGE.GridControl.Coordinates;
+import GridControl.Coordinates;
 import TMGE.Game.GamePieces.Piece;
+import Game.Game;
 
 import java.util.*;
 

@@ -2,25 +2,21 @@ package TMGE.GUI;
 
 import TMGE.Game.GamePieces.Piece;
 import TMGE.Main;
-import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.layout.*;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import TMGE.Game.TenTenGame;
-import TMGE.GridControl.Coordinates;
+import GridControl.Coordinates;
 import javafx.scene.paint.Color;
 
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.event.EventHandler;
 import javafx.scene.input.*;
 
 import javafx.scene.shape.Rectangle;
-import javafx.scene.paint.Paint;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -87,7 +83,7 @@ public class TenTenGUI
         borderPane.setTranslateY((200));
         layout.getChildren().add(borderPane);
 
-        Button mainMenuButton = new Button("Main Menu");
+        Button mainMenuButton = new Button("TMGE.Main Menu");
         mainMenuButton.setMaxWidth(150);
         mainMenuButton.setMaxHeight(50);
         mainMenuButton.setPrefHeight(50);

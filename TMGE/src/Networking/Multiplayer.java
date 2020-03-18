@@ -1,4 +1,4 @@
-package TMGE.Networking;
+package Networking;
 
 import TMGE.GUI.BejeweledUI;
 

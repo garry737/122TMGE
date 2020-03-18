@@ -16,19 +16,14 @@ import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import TMGE.Game.BejeweledGame;
 import TMGE.Game.GamePieces.Gem;
-import TMGE.GridControl.Coordinates;
-import TMGE.Networking.Client;
-import TMGE.Networking.Multiplayer;
-import TMGE.Networking.Server;
+import GridControl.Coordinates;
+import Networking.Client;
+import Networking.Multiplayer;
+import Networking.Server;
 
-import java.awt.*;
 import java.io.IOException;
-import java.sql.Time;
 import java.sql.Timestamp;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
-import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
@@ -318,7 +313,7 @@ public class BejeweledUI {
     }
 
     private class MainMenuButton extends Parent {
-        Button button = new Button("Main Menu");
+        Button button = new Button("TMGE.Main Menu");
         public MainMenuButton(int x, int y){
             button.setMaxWidth(150);
             button.setMaxHeight(50);
