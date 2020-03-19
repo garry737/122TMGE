@@ -34,19 +34,21 @@ import java.util.*;
 
 public class BejeweledUI {
 
-    private class TimerThread extends Thread{
+    private class TimerThread extends Thread {
         long time;
         Timer timer = new Timer();
-        TimerThread(long time){
+
+        TimerThread(long time) {
             this.time = time;
         }
+
         public void run() {
             TimerTask task = new TimerTask() {
                 @Override
                 public void run() {
                     time -= 1000;
-                    delay(0,startButton.updateTimerLabel());
-                    if (time <= 0){
+                    delay(0, startButton.updateTimerLabel());
+                    if (time <= 0) {
                         timer.cancel();
                         startButton.hasStarted = false;
                         delay(0, startButton.updateButtonText("Retry?"));
@@ -61,22 +63,24 @@ public class BejeweledUI {
         }
     }
 
-    private class HandleSwapThread extends Thread{
+    private class HandleSwapThread extends Thread {
         Jewel j1;
         Jewel j2;
-        HandleSwapThread(Jewel j1, Jewel j2){
+
+        HandleSwapThread(Jewel j1, Jewel j2) {
             this.j1 = j1;
             this.j2 = j2;
         }
+
         public void run() {
-            while (currentState != UISTATE.NOTHING){
+            while (currentState != UISTATE.NOTHING) {
                 System.out.println(currentState.toString());
-                switch (currentState){
+                switch (currentState) {
                     case SWAP:
                         currentState = UISTATE.WAITING;
-                        if (handleSwapLogic(j1, j2)){
+                        if (handleSwapLogic(j1, j2)) {
                             currentState = UISTATE.CLEAR;
-                        } else{
+                        } else {
                             currentState = UISTATE.SWAPBACK;
                         }
                         break;
@@ -103,14 +107,14 @@ public class BejeweledUI {
                     case ADDITIONALCLEAR:
                         int tempScore = game.clearMatchingTiles();
                         if (tempScore > 0)
-                            score.set(score.get()+tempScore);
+                            score.set(score.get() + tempScore);
                         if (game.hasEmptyTile())
                             currentState = UISTATE.CLEAR;
                         else
                             currentState = UISTATE.NOTHING;
                         break;
                     case SWAPBACK:
-                        delay(200, swapBack(j1,j2));
+                        delay(200, swapBack(j1, j2));
                         break;
                     default:
                         break;
@@ -126,26 +130,26 @@ public class BejeweledUI {
         }
     }
 
-    enum UISTATE{
+    enum UISTATE {
         SELECT, CLEAR, DROP, SWAPBACK, WAITING, NOTHING, SWAP, FILL, ADDITIONALCLEAR, NOTPLAYING;
     }
+
     private static BejeweledGame game;
     private static final int SIZE = 100;
     private static final int GEM_SIZE = 80;
     private static final long TIMER_COUNT = 180000;
     private static UISTATE currentState = UISTATE.NOTPLAYING;
-    private static BackgroundFill background_select = new BackgroundFill(Color.YELLOW,
-            CornerRadii.EMPTY, Insets.EMPTY);
-    private static BackgroundFill background_selectable = new BackgroundFill(Color.RED,
-            CornerRadii.EMPTY, Insets.EMPTY);
+    private static BackgroundFill background_select = new BackgroundFill(Color.YELLOW, CornerRadii.EMPTY, Insets.EMPTY);
+    private static BackgroundFill background_selectable = new BackgroundFill(Color.RED, CornerRadii.EMPTY,
+            Insets.EMPTY);
 
-    public BejeweledUI(BejeweledGame game){
+    public BejeweledUI(BejeweledGame game) {
         this.game = game;
     }
 
     private Jewel selected = null;
 
-    private HashMap<Coordinates,Jewel> jewels = new HashMap<>();
+    private HashMap<Coordinates, Jewel> jewels = new HashMap<>();
 
     private IntegerProperty score = new SimpleIntegerProperty();
     private StringProperty countdown = new SimpleStringProperty();
@@ -155,29 +159,27 @@ public class BejeweledUI {
 
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("mm:ss");
 
-
-    public Parent createContent(){
+    public Parent createContent() {
         root = new Pane();
         int row = game.row;
         int column = game.column;
 
-        Image bg = new Image("file:assets/bejeweled/bg2.png");
+        Image bg = new Image("/assets/bejeweled/bg2.png");
         ImageView bgView = new ImageView();
         bgView.setImage(bg);
-        bgView.setFitWidth(row*SIZE);
-        bgView.setFitHeight(column*SIZE);
+        bgView.setFitWidth(row * SIZE);
+        bgView.setFitHeight(column * SIZE);
 
-
-        root.setPrefSize(row*SIZE + 500, column*SIZE);
+        root.setPrefSize(row * SIZE + 500, column * SIZE);
         root.getChildren().add(bgView);
 
-        for (int x = 0; x < row;x++){
-            for (int y = 0; y < column; y++){
-                var coordinates = new Coordinates(x,y);
+        for (int x = 0; x < row; x++) {
+            for (int y = 0; y < column; y++) {
+                var coordinates = new Coordinates(x, y);
                 var gem = game.gemAtCoordinate(coordinates);
                 var point = new Point2D(y, x);
                 var jewel = new Jewel(point, gem);
-                jewels.put(coordinates,jewel);
+                jewels.put(coordinates, jewel);
             }
         }
 
@@ -193,7 +195,6 @@ public class BejeweledUI {
         textScore.setFont(Font.font((68)));
         textScore.textProperty().bind(score.asString("Score: [%d]"));
 
-
         Text timerInfo = new Text();
         timerInfo.setTranslateX((row * SIZE));
         timerInfo.setTranslateY((300));
@@ -202,11 +203,10 @@ public class BejeweledUI {
         Timestamp timestamp = new Timestamp(TIMER_COUNT);
         LocalDateTime ld = timestamp.toLocalDateTime();
         countdown.setValue(String.format("Time: %s", ld.format(formatter)));
-        startButton = new StartButton((row + 1)* SIZE, 350);
+        startButton = new StartButton((row + 1) * SIZE, 350);
         MultiplayerButton multiplayerBtn = new MultiplayerButton((row) * SIZE + 10, 550);
         LogoutButton logoutButton = new LogoutButton((row + 3) * SIZE + 25, 20);
-        MainMenuButton mainMenuButton = new MainMenuButton((row+3) * SIZE + 25, 80);
-
+        MainMenuButton mainMenuButton = new MainMenuButton((row + 3) * SIZE + 25, 80);
 
         root.getChildren().add(profile);
         root.getChildren().add(textScore);
@@ -218,7 +218,7 @@ public class BejeweledUI {
         return root;
     }
 
-    private Runnable swapBack(Jewel j1, Jewel j2){
+    private Runnable swapBack(Jewel j1, Jewel j2) {
         Runnable updater = new Runnable() {
 
             @Override
@@ -230,7 +230,7 @@ public class BejeweledUI {
         return updater;
     }
 
-    private void swap(Jewel j1, Jewel j2){
+    private void swap(Jewel j1, Jewel j2) {
         Gem gem1 = j1.gem;
         Gem gem2 = j2.gem;
         j1.setGem(gem2);
@@ -238,46 +238,45 @@ public class BejeweledUI {
         System.out.println("SWAPPING");
     }
 
-    boolean handleSwapLogic(Jewel j1, Jewel j2){
-
+    boolean handleSwapLogic(Jewel j1, Jewel j2) {
 
         var coords1 = j1.getCoordinates();
         var coords2 = j2.getCoordinates();
         int tempScore = game.swapGemWithClear(coords1, coords2);
         if (tempScore > 0) {
             swap(j1, j2);
-            score.set(score.get()+tempScore);
+            score.set(score.get() + tempScore);
         } else
             return false;
         return true;
     }
 
-    void handleClear(){
+    void handleClear() {
         var emptyCoordinatesList = game.getAllEmptyTile();
-        for (var coords:emptyCoordinatesList){
+        for (var coords : emptyCoordinatesList) {
             var jewel = jewels.get(coords);
             jewel.clearGem();
         }
     }
 
-    void handleDrop(){
+    void handleDrop() {
         game.dropGem();
         updateBoard();
 
     }
 
-    void handleFill(){
+    void handleFill() {
         game.fillEmptyTile();
         updateBoard();
 
     }
 
-    void updateBoard(){
-        for (int x = 0; x < game.row;x++){
-            for (int y = 0; y < game.column; y++){
-                var coordinates = new Coordinates(x,y);
+    void updateBoard() {
+        for (int x = 0; x < game.row; x++) {
+            for (int y = 0; y < game.column; y++) {
+                var coordinates = new Coordinates(x, y);
                 var gem = game.gemAtCoordinate(coordinates);
-                var jewel =jewels.get(coordinates);
+                var jewel = jewels.get(coordinates);
                 if (gem == null)
                     jewel.clearGem();
                 else
@@ -286,10 +285,12 @@ public class BejeweledUI {
         }
     }
 
-
-    public static void delay(long delayMs, Runnable toRun){
-        Thread t = new Thread(() ->{
-            try { Thread.sleep(delayMs); }catch(InterruptedException ignored){}
+    public static void delay(long delayMs, Runnable toRun) {
+        Thread t = new Thread(() -> {
+            try {
+                Thread.sleep(delayMs);
+            } catch (InterruptedException ignored) {
+            }
             Platform.runLater(toRun);
         });
         t.setDaemon(true);
@@ -298,7 +299,8 @@ public class BejeweledUI {
 
     private class LogoutButton extends Parent {
         Button button = new Button("Logout");
-        public LogoutButton(int x, int y){
+
+        public LogoutButton(int x, int y) {
             button.setMaxWidth(150);
             button.setMaxHeight(50);
             button.setPrefHeight(50);
@@ -312,14 +314,15 @@ public class BejeweledUI {
             button.setOnMouseClicked(mouseEvent -> {
 
                 LoginGUI loginGUI = new LoginGUI(Main.GLOBAL_USER_DATABASE, Main.PRIMARY_STAGE, Main.MAIN_MENU_SCENE);
-                Main.PRIMARY_STAGE.setScene(new Scene(loginGUI.createContent(),700,500));
+                Main.PRIMARY_STAGE.setScene(new Scene(loginGUI.createContent(), 700, 500));
             });
         }
     }
 
     private class MainMenuButton extends Parent {
         Button button = new Button("Main Menu");
-        public MainMenuButton(int x, int y){
+
+        public MainMenuButton(int x, int y) {
             button.setMaxWidth(150);
             button.setMaxHeight(50);
             button.setPrefHeight(50);
@@ -336,12 +339,12 @@ public class BejeweledUI {
         }
     }
 
-
     private class StartButton extends Parent {
         Button button = new Button("Start");
         TimerThread timerThread;
         boolean hasStarted = false;
-        public StartButton(int x, int y){
+
+        public StartButton(int x, int y) {
             button.setMaxWidth(200);
             button.setMaxHeight(100);
             button.setPrefHeight(100);
@@ -353,7 +356,7 @@ public class BejeweledUI {
             getChildren().add(borderPane);
 
             button.setOnMouseClicked(mouseEvent -> {
-                if (hasStarted){
+                if (hasStarted) {
                     timerThread.timer.cancel();
                     timerThread.interrupt();
                     button.setText("Retry");
@@ -361,10 +364,10 @@ public class BejeweledUI {
                     currentState = UISTATE.NOTPLAYING;
                     game.initValidBoard();
                     updateBoard();
-                } else{
-                    if (multiplayer != null){
+                } else {
+                    if (multiplayer != null) {
                         multiplayer.sendReady();
-                        if (!multiplayer.opponentReady){
+                        if (!multiplayer.opponentReady) {
                             button.setText("Waiting for opponent");
                         }
                         return;
@@ -374,7 +377,7 @@ public class BejeweledUI {
             });
         }
 
-        public Runnable startGame(){
+        public Runnable startGame() {
             Runnable run = new Runnable() {
 
                 @Override
@@ -391,23 +394,24 @@ public class BejeweledUI {
             return run;
         }
 
-        void updateCountDown(){
+        void updateCountDown() {
             Timestamp timestamp = new Timestamp(timerThread.time);
             LocalDateTime ld = timestamp.toLocalDateTime();
             countdown.setValue(String.format("Time: %s", ld.format(formatter)));
         }
 
-        public Runnable updateTimerLabel(){
+        public Runnable updateTimerLabel() {
             Runnable updater = new Runnable() {
 
                 @Override
                 public void run() {
-                   updateCountDown();
+                    updateCountDown();
                 }
             };
             return updater;
         }
-        public Runnable updateButtonText(String text){
+
+        public Runnable updateButtonText(String text) {
             Runnable updater = new Runnable() {
 
                 @Override
@@ -419,21 +423,26 @@ public class BejeweledUI {
         }
     }
 
-    public interface ScoreListener{
+    public interface ScoreListener {
         void opponentIsReady();
+
         void bothAreReady();
+
         void opponentConnected();
+
         void opponentScoreUpdated();
+
         void opponentDone();
     }
 
-    private class MultiplayerButton extends Parent implements ScoreListener{
+    private class MultiplayerButton extends Parent implements ScoreListener {
         Button button = new Button("Multiplayer");
         Button serverBtn = new Button("Create Room");
         Button clientBtn = new Button("Join Room");
         private StringProperty opponentScore = new SimpleStringProperty();
         boolean hasClicked = false;
-        public MultiplayerButton(int x, int y){
+
+        public MultiplayerButton(int x, int y) {
             button.setMaxWidth(200);
             button.setMaxHeight(100);
             button.setPrefHeight(100);
@@ -464,18 +473,17 @@ public class BejeweledUI {
             textScore.setFont(Font.font((50)));
             textScore.textProperty().bind(opponentScore);
 
-
             button.setOnMouseClicked(mouseEvent -> {
-                if (hasClicked){
+                if (hasClicked) {
                     button.setText("Multiplayer");
                     removeButtons();
                     root.getChildren().remove(textScore);
-                    if (multiplayer != null){
+                    if (multiplayer != null) {
                         multiplayer.closeConnection();
                         multiplayer = null;
                     }
                     hasClicked = false;
-                } else{
+                } else {
                     button.setText("Cancel");
                     root.getChildren().add(serverBtn);
                     root.getChildren().add(clientBtn);
@@ -484,7 +492,7 @@ public class BejeweledUI {
             });
 
             serverBtn.setOnMouseClicked(mouseEvent -> {
-                if (multiplayer != null){
+                if (multiplayer != null) {
                     multiplayer.closeConnection();
                     multiplayer = null;
                 }
@@ -496,35 +504,35 @@ public class BejeweledUI {
             });
 
             clientBtn.setOnMouseClicked(mouseEvent -> {
-                if (multiplayer != null){
+                if (multiplayer != null) {
                     multiplayer.closeConnection();
                     multiplayer = null;
                 }
-                if (startMultiplayer(false)){
+                if (startMultiplayer(false)) {
                     opponentScore.setValue("Opponent Score:\n[0]");
                     removeButtons();
-                } else{
+                } else {
                     opponentScore.setValue("Failed to connect");
                 }
                 if (!root.getChildren().contains(textScore))
                     root.getChildren().add(textScore);
             });
 
-
         }
-        void removeButtons(){
+
+        void removeButtons() {
             root.getChildren().remove(serverBtn);
             root.getChildren().remove(clientBtn);
         }
 
-        boolean startMultiplayer(Boolean isServer){
-            if (isServer){
+        boolean startMultiplayer(Boolean isServer) {
+            if (isServer) {
                 multiplayer = new Server(5000);
             } else {
                 try {
                     multiplayer = new Client("127.0.0.1", 5000);
                 } catch (IOException e) {
-                    //e.printStackTrace();
+                    // e.printStackTrace();
                     return false;
                 }
             }
@@ -570,11 +578,12 @@ public class BejeweledUI {
 
         @Override
         public void opponentDone() {
-            while (startButton.timerThread.time > 0);
-            String winStr  = "";
-            if (multiplayer.opponentScore < score.get()){
+            while (startButton.timerThread.time > 0)
+                ;
+            String winStr = "";
+            if (multiplayer.opponentScore < score.get()) {
                 winStr = "You won!";
-            } else{
+            } else {
                 winStr = "You Lost!";
             }
             String scoreString = String.format("Opponent Score:\n[%d] %s", multiplayer.opponentScore, winStr);
@@ -590,12 +599,12 @@ public class BejeweledUI {
         }
     }
 
-
-    private class Jewel extends Parent{
+    private class Jewel extends Parent {
         ImageView imageView = new ImageView();
         BorderPane borderPane;
         Gem gem;
-        public Jewel(Point2D point, Gem gem){
+
+        public Jewel(Point2D point, Gem gem) {
             borderPane = new BorderPane();
             this.gem = gem;
             imageView.setImage(gem.getImage());
@@ -606,22 +615,22 @@ public class BejeweledUI {
             setTranslateY(point.getY() * SIZE);
             getChildren().add(borderPane);
 
-            setOnMouseClicked( event -> {
-                if (currentState == UISTATE.NOTHING){
+            setOnMouseClicked(event -> {
+                if (currentState == UISTATE.NOTHING) {
                     selected = this;
                     selected.setSelection();
                     currentState = UISTATE.SELECT;
                     var directions = selected.getCoordinates().getDirections();
-                    for (var direction:directions){
+                    for (var direction : directions) {
                         var j = jewels.get(direction);
                         if (j != null)
                             j.setSelectable();
                     }
-                } else if (currentState == UISTATE.SELECT){
-                    if (this == selected){
+                } else if (currentState == UISTATE.SELECT) {
+                    if (this == selected) {
                         selected.removeSelection();
                         var directions = selected.getCoordinates().getDirections();
-                        for (var direction:directions){
+                        for (var direction : directions) {
                             var j = jewels.get(direction);
                             if (j != null)
                                 j.removeSelection();
@@ -632,10 +641,10 @@ public class BejeweledUI {
                     }
                     var coords1 = selected.getCoordinates();
                     var coords2 = this.getCoordinates();
-                    if (!coords1.contains(coords2)){
+                    if (!coords1.contains(coords2)) {
                         selected.removeSelection();
                         var directions = selected.getCoordinates().getDirections();
-                        for (var direction:directions){
+                        for (var direction : directions) {
                             var j = jewels.get(direction);
                             if (j != null)
                                 j.removeSelection();
@@ -643,7 +652,7 @@ public class BejeweledUI {
                         selected = this;
                         selected.setSelection();
                         directions = selected.getCoordinates().getDirections();
-                        for (var direction:directions){
+                        for (var direction : directions) {
                             var j = jewels.get(direction);
                             if (j != null)
                                 j.setSelectable();
@@ -652,7 +661,7 @@ public class BejeweledUI {
                     }
                     currentState = UISTATE.SWAP;
                     var directions = selected.getCoordinates().getDirections();
-                    for (var direction:directions){
+                    for (var direction : directions) {
                         var j = jewels.get(direction);
                         if (j != null)
                             j.removeSelection();
@@ -664,44 +673,44 @@ public class BejeweledUI {
             });
         }
 
-
-        public int getColumn(){
-            return (int)getTranslateX() / SIZE;
+        public int getColumn() {
+            return (int) getTranslateX() / SIZE;
         }
 
-        public int getRow(){
-            return (int)getTranslateY() / SIZE;
+        public int getRow() {
+            return (int) getTranslateY() / SIZE;
         }
 
-        public Gem getGem(){
+        public Gem getGem() {
             return gem;
         }
 
-        public void clearGem(){
+        public void clearGem() {
             gem = null;
             imageView.setImage(null);
         }
 
-        public void setSelectable(){
+        public void setSelectable() {
             Background background = new Background(background_selectable);
             borderPane.setBackground(background);
         }
 
-        public void setSelection(){
+        public void setSelection() {
             Background background = new Background(background_select);
             borderPane.setBackground(background);
         }
 
-        public void removeSelection(){
+        public void removeSelection() {
             borderPane.setBackground(null);
         }
 
-        public void setGem(Gem newGem){
+        public void setGem(Gem newGem) {
             this.gem = newGem;
             imageView.setImage(gem.getImage());
         }
-        public Coordinates getCoordinates(){
-            return new Coordinates(getRow(),getColumn());
+
+        public Coordinates getCoordinates() {
+            return new Coordinates(getRow(), getColumn());
         }
     }
 }

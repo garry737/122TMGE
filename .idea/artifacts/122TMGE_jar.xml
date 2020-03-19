@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="122TMGE:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/122TMGE_jar</output-path>
+    <root id="archive" name="122TMGE.jar">
+      <element id="module-output" name="122TMGE" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/javafx-sdk-14/lib/src.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/javafx-sdk-14/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/javafx-sdk-14/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/javafx-sdk-14/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/javafx-sdk-14/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/javafx-sdk-14/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/javafx-sdk-14/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/javafx-sdk-14/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/javafx-sdk-14/lib/javafx.graphics.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
