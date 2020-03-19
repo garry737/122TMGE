@@ -1,5 +1,0 @@
-hannah dubu /assets/icons/charmander.png
-peter zotzotzot /assets/icons/master-ball.png
-testing 123 /assets/icons/charmander.png
-test 123 /assets/icons/charmander.png
-hoa 123456 file:/Users/hoaly/Documents/School/IMX%20122/Assignment_5/122TMGE/out/production/122TMGE/assets/icons/charmander.png

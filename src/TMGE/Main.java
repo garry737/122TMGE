@@ -13,10 +13,6 @@ import javafx.scene.control.*;
 import TMGE.GUI.LoginGUI;
 import TMGE.UserProfiles.UserDatabase;
 
-import java.io.File;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-
 public class Main extends Application {
 
     Stage window;
@@ -24,7 +20,7 @@ public class Main extends Application {
     public static Scene MAIN_MENU_SCENE= null;
     public static Stage PRIMARY_STAGE = null;
     public static UserDatabase GLOBAL_USER_DATABASE = null;
-
+    public static String SAVELOCATION = "/UserProfile/userprofiles.txt";
 
     public static void main(String[] args) {
         launch(args);
@@ -151,15 +147,7 @@ public class Main extends Application {
 //        window.show();
         MAIN_MENU_SCENE = mainMenuScene;
         PRIMARY_STAGE = window;
-        Path currentRelativePath = Paths.get("");
-        String s = currentRelativePath.toAbsolutePath().toString();
-        String fileFullPath = s + "src/TMGE/UserProfiles/UserDataBaseFile.txt";
-        File file = new File(fileFullPath);
-        try {
-            file.createNewFile();
-        }catch (Exception e){
-        }
-        UserDatabase userDatabase = new UserDatabase("src/TMGE/UserProfiles/UserDataBaseFile.txt");
+        UserDatabase userDatabase = new UserDatabase(SAVELOCATION);
         GLOBAL_USER_DATABASE = userDatabase;
         LoginGUI loginGUI = new LoginGUI(userDatabase, window, mainMenuScene);
         window.setScene(new Scene(loginGUI.createContent(),700,500));

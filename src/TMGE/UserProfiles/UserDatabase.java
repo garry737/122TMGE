@@ -1,6 +1,8 @@
 package TMGE.UserProfiles;
 
 import java.io.*;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -21,7 +23,14 @@ public class UserDatabase {
         this.profilePictures = new HashMap<>();
 
         try {
+            Path currentRelativePath = Paths.get("");
+            String s = currentRelativePath.toAbsolutePath().toString();
+            System.out.println("Current relative path is: " + s);
+            this.filePath = s + filePath;
             File myObj = new File(this.filePath);
+            if (myObj.exists()){
+                System.out.println("Exist");
+            }
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
