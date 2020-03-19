@@ -1,57 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="122TMGE:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+    <list default="true" id="c604f9fa-5b37-4266-998d-7c616880cdd0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/UserProfile/userprofiles.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/122TMGE_jar/122TMGE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/UserProfiles/UserDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/122TMGE/TMGE/UserProfiles/UserDatabase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/122TMGE/TMGE/UserProfiles/UserDatabaseFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TMGE/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TMGE/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TMGE/UserProfiles/UserDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TMGE/UserProfiles/UserDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TMGE/UserProfiles/UserDatabaseFile.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
-    <ui_properties converted="true" />
-    <breakpoint_rules converted="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,151 +29,63 @@
       </list>
     </option>
   </component>
-  <component name="FindManager">
-    <FindUsagesManager>
-      <setting name="OPEN_NEW_TAB" value="false" />
-    </FindUsagesManager>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectId" id="1Z6EHAguCQeqMNk4fLmHWziDujJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
-  </component>
+  <component name="ProjectId" id="1ZGaGDaBCHj6Y52FyS52JZKcAsw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="OverrideImplement.combined" value="false" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="122tmge" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/122TMGE_jar" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/out/artifacts/122TMGE_jar" />
+      <recent name="$PROJECT_DIR$/assets/bejeweled" />
+      <recent name="$PROJECT_DIR$/src/TMGE/GUI" />
+      <recent name="$PROJECT_DIR$/src/TMGE/Networking" />
+      <recent name="$PROJECT_DIR$/src/TMGE/Game" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/icons" />
+      <recent name="$PROJECT_DIR$/src/DatabaseSave" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
-      <Host>localhost</Host>
-      <Port>5050</Port>
-    </configuration>
-    <configuration name="LoginScreen" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="sample.UserProfiles.LoginGUI" />
-      <module name="TMGE" />
+  <component name="RunManager" selected="Application.Main2">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TMGE.Main" />
+      <module name="122TMGE" />
       <option name="PROGRAM_PARAMETERS" value="Server" />
-      <option name="VM_PARAMETERS" value="--module-path $PROJECT_DIR$/../../JAVAFX13/javafx-sdk-13.0.2/lib --add-modules javafx.controls,javafx.fxml" />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Desktop/javafx-sdk-14/lib --add-modules javafx.controls,javafx.fxml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="sample.Main" />
-      <module name="TMGE" />
-      <option name="PROGRAM_PARAMETERS" value="Server" />
-      <option name="VM_PARAMETERS" value="--module-path $PROJECT_DIR$/../../JAVAFX13/javafx-sdk-13.0.2/lib --add-modules javafx.controls,javafx.fxml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserProfilesMain" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="sample.UserProfiles.UserDatabase" />
-      <module name="TMGE" />
-      <option name="PROGRAM_PARAMETERS" value="Server" />
-      <option name="VM_PARAMETERS" value="--module-path $PROJECT_DIR$/../../JAVAFX13/javafx-sdk-13.0.2/lib --add-modules javafx.controls,javafx.fxml" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
+    <configuration name="Main2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="TMGE.Main" />
+      <module name="122TMGE" />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Desktop/javafx-sdk-14/lib --add-modules javafx.controls,javafx.fxml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.UserProfilesMain" />
-      <item itemvalue="Application.LoginScreen" />
+      <item itemvalue="Application.Main2" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -212,68 +93,129 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
-      <created>1359379246138</created>
+      <changelist id="c604f9fa-5b37-4266-998d-7c616880cdd0" name="Default Changelist" comment="" />
+      <created>1584467786738</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1359379246138</updated>
-      <workItem from="1359379250712" duration="1302000" />
-      <workItem from="1584410034749" duration="544000" />
-      <workItem from="1584431243251" duration="17863000" />
+      <updated>1584467786738</updated>
+      <workItem from="1584467788183" duration="3274000" />
+      <workItem from="1584569880141" duration="5543000" />
+      <workItem from="1584575562056" duration="1934000" />
+      <workItem from="1584578299862" duration="2957000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584444381902">
+    <state x="524" y="181" key="#Unnamed" timestamp="1584467806288">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027/-1920.23.1920.1057@0.23.1680.1027" timestamp="1584444381902" />
-    <state x="653" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1584437405447">
+    <state x="524" y="181" key="#Unnamed/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584467806288" />
+    <state x="1689" y="-1007" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584579479438">
+      <screen x="1680" y="-1293" width="1080" height="1897" />
+    </state>
+    <state x="304" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1584483607965" />
+    <state x="304" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584468028710" />
+    <state x="1689" y="-1007" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@1680.-1293.1080.1897" timestamp="1584579479438" />
+    <state x="2012" y="-957" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1584573788721">
+      <screen x="1680" y="-1293" width="1080" height="1897" />
+    </state>
+    <state x="2012" y="-957" key="#com.intellij.ide.macro.MacrosDialog/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@1680.-1293.1080.1897" timestamp="1584573788721" />
+    <state x="2051" y="-768" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584573974170">
+      <screen x="1680" y="-1293" width="1080" height="1897" />
+    </state>
+    <state x="577" y="307" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1584502783233" />
+    <state x="577" y="307" key="#com.intellij.ide.util.TreeClassChooserDialog/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584468023635" />
+    <state x="2051" y="-768" key="#com.intellij.ide.util.TreeClassChooserDialog/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@1680.-1293.1080.1897" timestamp="1584573974170" />
+    <state x="2086" y="-982" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1584574176227">
+      <screen x="1680" y="-1293" width="1080" height="1897" />
+    </state>
+    <state x="2086" y="-982" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@1680.-1293.1080.1897" timestamp="1584574176227" />
+    <state x="1935" y="-928" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1584573725767">
+      <screen x="1680" y="-1293" width="1080" height="1897" />
+    </state>
+    <state x="1935" y="-928" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@1680.-1293.1080.1897" timestamp="1584573725767" />
+    <state width="1038" height="533" key="GridCell.Tab.0.bottom" timestamp="1584581434024">
+      <screen x="1680" y="-1293" width="1080" height="1897" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027/-1920.23.1920.1057@0.23.1680.1027" timestamp="1584491823901" />
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1584525217190" />
+    <state width="1638" height="329" key="GridCell.Tab.0.bottom/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584471530167" />
+    <state width="1038" height="533" key="GridCell.Tab.0.bottom/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@1680.-1293.1080.1897" timestamp="1584581434024" />
+    <state width="1038" height="533" key="GridCell.Tab.0.center" timestamp="1584581434022">
+      <screen x="1680" y="-1293" width="1080" height="1897" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027/-1920.23.1920.1057@0.23.1680.1027" timestamp="1584491823899" />
+    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1584525217189" />
+    <state width="1638" height="329" key="GridCell.Tab.0.center/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584471530166" />
+    <state width="1038" height="533" key="GridCell.Tab.0.center/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@1680.-1293.1080.1897" timestamp="1584581434022" />
+    <state width="1038" height="533" key="GridCell.Tab.0.left" timestamp="1584581434021">
+      <screen x="1680" y="-1293" width="1080" height="1897" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027/-1920.23.1920.1057@0.23.1680.1027" timestamp="1584491823899" />
+    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1584525217189" />
+    <state width="1638" height="329" key="GridCell.Tab.0.left/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584471530166" />
+    <state width="1038" height="533" key="GridCell.Tab.0.left/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@1680.-1293.1080.1897" timestamp="1584581434021" />
+    <state width="1038" height="533" key="GridCell.Tab.0.right" timestamp="1584581434023">
+      <screen x="1680" y="-1293" width="1080" height="1897" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027/-1920.23.1920.1057@0.23.1680.1027" timestamp="1584491823900" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1584525217190" />
+    <state width="1638" height="329" key="GridCell.Tab.0.right/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584471530167" />
+    <state width="1038" height="533" key="GridCell.Tab.0.right/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@1680.-1293.1080.1897" timestamp="1584581434023" />
+    <state width="1038" height="651" key="GridCell.Tab.1.bottom" timestamp="1584581224474">
+      <screen x="1680" y="-1293" width="1080" height="1897" />
+    </state>
+    <state width="1638" height="329" key="GridCell.Tab.1.bottom/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584471530169" />
+    <state width="1038" height="651" key="GridCell.Tab.1.bottom/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@1680.-1293.1080.1897" timestamp="1584581224474" />
+    <state width="1038" height="651" key="GridCell.Tab.1.center" timestamp="1584581224473">
+      <screen x="1680" y="-1293" width="1080" height="1897" />
+    </state>
+    <state width="1638" height="329" key="GridCell.Tab.1.center/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584471530168" />
+    <state width="1038" height="651" key="GridCell.Tab.1.center/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@1680.-1293.1080.1897" timestamp="1584581224473" />
+    <state width="1038" height="651" key="GridCell.Tab.1.left" timestamp="1584581224472">
+      <screen x="1680" y="-1293" width="1080" height="1897" />
+    </state>
+    <state width="1638" height="329" key="GridCell.Tab.1.left/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584471530168" />
+    <state width="1038" height="651" key="GridCell.Tab.1.left/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@1680.-1293.1080.1897" timestamp="1584581224472" />
+    <state width="1038" height="651" key="GridCell.Tab.1.right" timestamp="1584581224474">
+      <screen x="1680" y="-1293" width="1080" height="1897" />
+    </state>
+    <state width="1638" height="329" key="GridCell.Tab.1.right/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1584471530168" />
+    <state width="1038" height="651" key="GridCell.Tab.1.right/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@1680.-1293.1080.1897" timestamp="1584581224474" />
+    <state x="474" y="377" width="793" height="598" key="NewModule_or_Project.wizard" timestamp="1584503133010">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="653" y="227" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027/-1920.23.1920.1057@0.23.1680.1027" timestamp="1584437405447" />
-    <state x="577" y="327" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584440881953">
+    <state x="474" y="377" width="793" height="598" key="NewModule_or_Project.wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1584503133010" />
+    <state x="1685" y="-1119" key="SettingsEditor" timestamp="1584580204473">
+      <screen x="1680" y="-1293" width="1080" height="1897" />
+    </state>
+    <state x="328" y="118" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1584504715233" />
+    <state x="1685" y="-1119" key="SettingsEditor/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@1680.-1293.1080.1897" timestamp="1584580204473" />
+    <state x="1899" y="-542" key="com.intellij.ide.util.TipDialog" timestamp="1584578300798">
+      <screen x="1680" y="-1293" width="1080" height="1897" />
+    </state>
+    <state x="1899" y="-542" key="com.intellij.ide.util.TipDialog/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@1680.-1293.1080.1897" timestamp="1584578300798" />
+    <state x="217" y="159" key="new project wizard" timestamp="1584503036882">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="577" y="327" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.1027/-1920.23.1920.1057@0.23.1680.1027" timestamp="1584440881953" />
-    <state width="1638" height="270" key="GridCell.Tab.0.bottom" timestamp="1584451272258">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="217" y="159" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1584503036882" />
+    <state x="1885" y="-853" width="670" height="676" key="search.everywhere.popup" timestamp="1584580468277">
+      <screen x="1680" y="-1293" width="1080" height="1897" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1584424186373" />
-    <state width="1638" height="270" key="GridCell.Tab.0.bottom/0.23.1680.1027/-1920.23.1920.1057@0.23.1680.1027" timestamp="1584451272258" />
-    <state width="1638" height="270" key="GridCell.Tab.0.center" timestamp="1584451272244">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1584424186372" />
-    <state width="1638" height="270" key="GridCell.Tab.0.center/0.23.1680.1027/-1920.23.1920.1057@0.23.1680.1027" timestamp="1584451272244" />
-    <state width="1638" height="270" key="GridCell.Tab.0.left" timestamp="1584451272234">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1584424186372" />
-    <state width="1638" height="270" key="GridCell.Tab.0.left/0.23.1680.1027/-1920.23.1920.1057@0.23.1680.1027" timestamp="1584451272234" />
-    <state width="1638" height="270" key="GridCell.Tab.0.right" timestamp="1584451272250">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.23.1680.1027/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1584424186373" />
-    <state width="1638" height="270" key="GridCell.Tab.0.right/0.23.1680.1027/-1920.23.1920.1057@0.23.1680.1027" timestamp="1584451272250" />
-    <state x="328" y="118" key="SettingsEditor" timestamp="1584432699626">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="328" y="118" key="SettingsEditor/0.23.1680.1027/-1920.23.1920.1057@0.23.1680.1027" timestamp="1584432699626" />
-    <state x="517" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1584451176980">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="517" y="369" key="com.intellij.ide.util.TipDialog/0.23.1680.1027/-1920.23.1920.1057@0.23.1680.1027" timestamp="1584451176980" />
+    <state x="1885" y="-853" width="670" height="676" key="search.everywhere.popup/1680.-1293.1080.1897/-240.-1057.1920.1057/0.23.1680.1027@1680.-1293.1080.1897" timestamp="1584580468277" />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TMGE/UserProfiles/UserDatabase.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
